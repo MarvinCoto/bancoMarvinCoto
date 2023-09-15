@@ -1,0 +1,63 @@
+
+#divportada
+{
+    background-color: blue;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: solid 2px black ;
+}
+
+#divGeneral
+{
+    display: flex;
+    justify-content: center;
+}
+
+body
+{
+    padding: 20px;
+}
+
+#formulario
+{
+    width: 45%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+.numeroBilletes
+{
+    color: green;
+    
+
+}
+
+#efectivo
+{
+    display: flex;
+    
+
+}
+
+
+
+#divPrincipal
+{
+display: flex;
+justify-content: center;
+}
+
+
+.footer 
+{
+    background-color: blue;
+    color: white;
+    border: solid 2px black ;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Billetes</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/codigoCSS.css">
+</head>
+
+<body> 
+       <div id="divGeneral">
+    <div id="divportada">
+        <h1>Banco Nacional Español</h1>
+        <img src="../img/banco.png" width="105px">
+        <img src="../img/españa.png" width="120px">
+    </div>
+       </div>
+       <br><br>
+       
+
+<div id="divPrincipal">
+        
+        <!-- Formulario-->
+        <div id="formulario">
+            <h1>Retiro de efectivo</h1>
+            <br>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="nombreDelCliente" placeholder="name@example.com" itemid="nombreCliente">
+            <label for="floatingInput">Ingresa tu nombre:</label>
+          </div>
+          <br>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="cantidadDeDinero" placeholder="Password" itemid="cantidadDinero">
+            <label for="floatingPassword">Ingresa la cantidad a retirar($):</label>
+          </div>
+          <br>
+          <button  type="button" class="btn btn-outline-primary" id="retirarDinero">Realizar retiro</button>
+          </div>
+          
+          
+          <!-- Billetes -->
+          <div id="billetes">
+            <h1>Detalle retiro</h1>
+            <br>
+            <p id="MensajeDetalle"></p>
+            
+            <div id="efectivo">
+
+            <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Billetes de 100$: <span class="numeroBilletes" id="cantidadBilletes100">$</span> </li>
+                  <li class="list-group-item">Billetes de 50$: <span class="numeroBilletes" id="cantidadBilletes50">$</span> </li>
+                  <li class="list-group-item">Billetes de 20$: <span class="numeroBilletes" id="cantidadBilletes20">$</span> </li>
+                </ul>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Billetes de 10$: <span class="numeroBilletes" id="cantidadBilletes10">$</span></li>
+                  <li class="list-group-item">Billetes de 5$:<span class="numeroBilletes" id="cantidadBilletes5">$</span> </li>
+                  <li class="list-group-item">Billetes de 1$: <span class="numeroBilletes" id="cantidadBilletes1">$</span> </li>
+                </ul>
+              </div>
+
+            </div>
+
+            
+
+          </div>
+    
+
+</div>   
+
+
+
+    <!-- Enlace archivo JS en bootstrap -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Enlace de alerta -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Enlace del archivo JS -->
+    <script src="../JavaScript/codigoJS.js"></script>
+    
+</body>
+
+<footer class="footer">
+    Desarrollado por Marvin Gutiérrez &copy; <br>
+    Marvin Javier Gutiérrez Coto - Especialidad: Software - Código: 20230644
+</footer>
+
+
+
+</html>
